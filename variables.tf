@@ -8,5 +8,5 @@ variable "security_policy" {
 }
 
 variable "prefix" {
-  default = "alex"
+  default = "bob"
 }
