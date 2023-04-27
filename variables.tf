@@ -1,9 +1,13 @@
 variable "project" {
   type = string
-  default = "avian-amulet-378416"
+}
+
+variable "region" {
+  type = string
 }
 
 variable "security_policy" {
+  type = string
   default = "alex-security-policy"
 }
 
