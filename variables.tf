@@ -1,4 +1,4 @@
-variable "project" {
+variable "project_id" {
   type = string
 }
 
@@ -6,10 +6,14 @@ variable "region" {
   type = string
 }
 
-variable "security_policy" {
+variable "policy_name" {
   type = string
-  default = "alex-security-policy"
 }
+
+variable "policy_description" {
+  default = "bob"
+}
+
 
 variable "prefix" {
   default = "bob"
