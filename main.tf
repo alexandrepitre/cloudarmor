@@ -35,5 +35,6 @@ module "cloud_armor" {
     target_rule_set         = "rfi-v33-stable"
     sensitivity_level       = 4
   }
-  
+
+  }
 }
