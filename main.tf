@@ -15,34 +15,34 @@ module "cloud_armor" {
   default_rule_action          = "deny(404)"
   #Add pre-configured rules
   #Set target to lb backend
-  preconfigured_rules {
+  pre_configured_rules {
     name = "xss"
   }
-  preconfigured_rules {
+  pre_configured_rules {
     name = "sql-injection"
   }
-  preconfigured_rules {
+  pre_configured_rules {
     name = "lfi-rfi"
   }
-  preconfigured_rules {
+  pre_configured_rules {
     name = "sqli"
   }
-  preconfigured_rules {
+  pre_configured_rules {
     name = "sqli-err"
   }
-  preconfigured_rules {
+  pre_configured_rules {
     name = "rfi-lfi-err"
   }
-  preconfigured_rules {
+  pre_configured_rules {
     name = "dos-app-layer"
   }
-  preconfigured_rules {
+  pre_configured_rules {
     name = "dos-network-layer"
   }
-  preconfigured_rules {
+  pre_configured_rules {
     name = "admin-ddos"
   }
-  preconfigured_rules {
+  pre_configured_rules {
     name = "http-protocol-violations"
   }
 }
